@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Paradoxical Maze</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navigation">
+            <a href="page2.html" class="nav-link">Next Page</a>
+        </div>
+
+        <div class="maze-wrapper">
+            <div class="maze">
+                <div class="maze-cell" data-x="0" data-y="0"></div>
+                <div class="maze-cell" data-x="1" data-y="0"></div>
+                <div class="maze-cell" data-x="2" data-y="0"></div>
+                <div class="maze-cell" data-x="3" data-y="0"></div>
+                <div class="maze-cell" data-x="4" data-y="0"></div>
+                <div class="maze-cell" data-x="0" data-y="1"></div>
+                <div class="maze-cell" data-x="1" data-y="1"></div>
+                <div class="maze-cell" data-x="2" data-y="1"></div>
+                <div class="maze-cell" data-x="3" data-y="1"></div>
+                <div class="maze-cell" data-x="4" data-y="1"></div>
+                <div class="maze-cell" data-x="0" data-y="2"></div>
+                <div class="maze-cell" data-x="1" data-y="2"></div>
+                <div class="maze-cell" data-x="2" data-y="2"></div>
+                <div class="maze-cell" data-x="3" data-y="2"></div>
+                <div class="maze-cell" data-x="4" data-y="2"></div>
+                <div class="maze-cell" data-x="0" data-y="3"></div>
+                <div class="maze-cell" data-x="1" data-y="3"></div>
+                <div class="maze-cell" data-x="2" data-y="3"></div>
+                <div class="maze-cell" data-x="3" data-y="3"></div>
+                <div class="maze-cell" data-x="4" data-y="3"></div>
+                <div class="maze-cell" data-x="0" data-y="4"></div>
+                <div class="maze-cell" data-x="1" data-y="4"></div>
+                <div class="maze-cell" data-x="2" data-y="4"></div>
+                <div class="maze-cell" data-x="3" data-y="4"></div>
+                <div class="maze-cell" data-x="4" data-y="4"></div>
+            </div>
+        </div>
+
+        <div class="paradox-container">
+            <div class="paradox-text">This relaxes your mind</div>
+            <div class="paradox-text">Or is it?</div>
+            <div class="paradox-text">I dont know</div>
+        </div>
+
+        <div class="floating-elements">
+            <div class="floating-element" data-speed="2">?</div>
+            <div class="floating-element" data-speed="3">!</div>
+            <div class="floating-element" data-speed="1.5">...</div>
+            <div class="floating-element" data-speed="2.5">??</div>
+        </div>
+
+        <div class="hidden-messages">
+            <div class="message" data-trigger="hover">Don't trust what you see</div>
+            <div class="message" data-trigger="click">Reality is subjective</div>
+            <div class="message" data-trigger="scroll">Are you sure?</div>
+        </div>
+
+        <div class="color-shifter">
+            <div class="color-text">The colors you see are not the colors you think</div>
+        </div>
+
+        <div class="maze-controls">
+            <button class="maze-button" data-action="rotate">Rotate Maze</button>
+            <button class="maze-button" data-action="invert">Invert Colors</button>
+            <button class="maze-button" data-action="shuffle">Shuffle Elements</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
