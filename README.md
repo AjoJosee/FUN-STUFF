@@ -1,2 +1,2 @@
 # FUN-STUFF
-just testing out features ig
+just testing out things
